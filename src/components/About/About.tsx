@@ -20,9 +20,9 @@ export function About() {
                 transition={motionTransitionsAbout.transition}
             >
                 <h1 className="mb-6 md:text-4xl">Creando webs con <br /> <span className="text-secondary">diseños espectaculares</span></h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate enim urna, nec fringilla mauris mattis a. In mollis vitae velit ac vehicula. </p>
+                <p>Creo firmemente en el poder de la tecnología para transformar la vida de las personas y simplificar procesos. Mi objetivo es seguir explorando nuevas tecnologías y tendencias para desarrollar soluciones que marquen la diferencia y mejoren la experiencia digital de los usuarios. </p>
 
-                <div className="grid justify-between grid-cols-2 gap-3 my-8 md:flex md:grid-cols-4 md:gap-6">
+                <div className="grid justify-between grid-cols-4 gap-4 my-8 md:flex md:grid-cols-4 md:gap-6">
                     {dataCounter.map(({ id, endCounter, text, lineRight, lineRightMobile }) => (
                         <div key={id} className={`${lineRight && 'ltr'}`}>
                             <div className={`${lineRight && 'px-4 border-2 border-transparent md:border-e-gray-100'} ${lineRightMobile && 'border-e-gray-100'}`}>

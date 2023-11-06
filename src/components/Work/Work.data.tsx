@@ -3,10 +3,10 @@ import { SiTailwindcss, SiGithub, SiReact, SiNextdotjs, SiTestinglibrary } from 
 export const cardContent = [
   {
     id: 0,
-    title: "Calculator",
+    title: "M-Market",
     description:
-      "Calculator project made by React and Tailwind CSS. ",
-    imageUrl: "/work-1.jpeg",
+      "Plataforma web para realizar compras de tipo Minimercado. ",
+    imageUrl: "/MMarket.png",
     skills: [
       {
         icon: <SiReact size="40" />
@@ -21,10 +21,10 @@ export const cardContent = [
   },
   {
     id: 1,
-    title: "Portfolio React",
+    title: "Perros-Razas",
     description:
-      "This is a description2, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-2.jpeg",
+      "Plataforma que te permite buscar cualquier tipo de raza de perros y sus caracteristicas",
+    imageUrl: "/Perros.png",
     skills: [
       {
         icon: <SiNextdotjs size="40" />
@@ -39,10 +39,10 @@ export const cardContent = [
   },
   {
     id: 2,
-    title: "Strapi",
+    title: "Cuentos",
     description:
-      "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-3.jpeg",
+      "La aplicación muestra textos aleatorios que contienen enseñanzas y reflexiones profundas.",
+    imageUrl: "/Cuentos.png",
     skills: [
       {
         icon: <SiNextdotjs size="40" />
@@ -57,10 +57,10 @@ export const cardContent = [
   },
   {
     id: 3,
-    title: "Prestashop",
+    title: "Porfolio Version 1",
     description:
-      "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-4.jpeg",
+      "Plataforma que muestra la primera version de mi primer Porfolio",
+    imageUrl: "/Portfolio_V1.png",
     skills: [
       {
         icon: <SiNextdotjs size="40" />
@@ -73,22 +73,5 @@ export const cardContent = [
       },
     ]
   },
-  {
-    id: 4,
-    title: "E-Commerce React",
-    description:
-      "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-5.jpeg",
-    skills: [
-      {
-        icon: <SiNextdotjs size="40" />
-      },
-      {
-        icon: <SiTailwindcss size="40" />
-      },
-      {
-        icon: <SiGithub size="40" />
-      },
-    ]
-  },
+
 ];
